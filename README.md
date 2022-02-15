@@ -65,4 +65,11 @@ typedef struct binary_tree_s heap_t;
 ### Print function
 
 A custom print function is used in this project for visualization purposes.
+
+```c
+
+void binary_tree_print(const binary_tree_t *);
+
+```
+
 The function is defined in [this](binary_tree_print.c) file
